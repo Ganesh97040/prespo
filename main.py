@@ -29,7 +29,7 @@ def main(page: ft.Page):
         ft.Text("Stock Agent Control", size=16, color="grey", text_align=ft.TextAlign.CENTER),
         ft.Divider(),
         token_box,
-        ft.ElevatedButton("SAVE TOKEN", on_click=save_click, width=1000, bgcolor="blue", color="white"),
+        ft.Button("SAVE TOKEN", on_click=save_click, width=1000, bgcolor="blue", color="white"),
         ft.Divider(),
         stock_box,
         ft.Button("START AGENT", on_click=start_click, width=1000, bgcolor="green", color="white"),
