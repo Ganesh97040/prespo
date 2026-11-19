@@ -1,0 +1,13 @@
+[project]
+name = "prespo"
+version = "1.0.0"
+description = "Naa Agent Control App"
+requires-python = ">=3.11"
+dependencies = [
+    "flet",
+    "yfinance",
+    "requests",
+    "pytz",
+]
+
+[tool.flet]
