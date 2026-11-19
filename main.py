@@ -32,7 +32,7 @@ def main(page: ft.Page):
         ft.ElevatedButton("SAVE TOKEN", on_click=save_click, width=1000, bgcolor="blue", color="white"),
         ft.Divider(),
         stock_box,
-        ft.ElevatedButton("START AGENT", on_click=start_click, width=1000, bgcolor="green", color="white"),
+        ft.Button("START AGENT", on_click=start_click, width=1000, bgcolor="green", color="white"),
         ft.Divider(),
         status_text,
     )
