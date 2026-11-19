@@ -12,7 +12,7 @@ jobs:
         with:
           flutter-version: '3.27.0'
       - run: pip install flet
-      - run: flet build apk --split-per-abi --release
+      - run: flet build apk --split-per-abi
       - run: find build -name "*.apk" -type f
       - uses: actions/upload-artifact@v4
         with:
